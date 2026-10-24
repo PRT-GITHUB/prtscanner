@@ -1,0 +1,220 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :app:processDebugManifest
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeDebugStartupProfile UP-TO-DATE
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libimage_processing_util_jni.so, libjpeg.so, libleptonica.so, libmlkit_google_ocr_pipeline.so, libopencv_java4.so, libpngx.so, libtesseract.so, libtranslate_jni.so.
+
+> Task :app:processDebugResources
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:264:18 Unresolved reference: BitmapFactory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:265:18 Unresolved reference: BitmapFactory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:272:9 Unresolved reference: FileOutputStream
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:272:40 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:278:24 Unresolved reference: BitmapFactory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:285:9 Unresolved reference: FileOutputStream
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:285:38 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:286:9 Unresolved reference: FileOutputStream
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/CameraActivity.kt:286:39 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/IDPhotoActivity.kt:26:24 Type mismatch: inferred type is ([Error type: Cannot infer a lambda parameter type], [Error type: Cannot infer a lambda parameter type]) -> Unit but Int was expected
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/IDPhotoActivity.kt:26:26 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/activities/IDPhotoActivity.kt:26:38 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/adapters/ToolAdapter.kt:25:16 Unresolved reference. None of the following candidates is applicable because of receiver type mismatch: 
+internal val File.root: File defined in kotlin.io
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:19:23 Unresolved reference: Fragment
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:21:27 Unresolved reference: FragmentToolsBinding
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:25:35 Unresolved reference: registerForActivityResult
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:25:101 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:26:38 Unresolved reference: it
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:29:43 Unresolved reference: registerForActivityResult
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:29:118 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:33:37 Unresolved reference: registerForActivityResult
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:33:103 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:34:33 Unresolved reference: it
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:37:5 'onCreateView' overrides nothing
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:42:20 Unresolved reference: FragmentToolsBinding
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:46:5 'onViewCreated' overrides nothing
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:47:15 Unresolved reference: onViewCreated
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:48:43 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:55:76 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:56:78 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:57:72 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:58:74 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:59:73 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:62:96 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:63:56 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:64:32 Unresolved reference: ToolAdapter
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:64:53 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:69:37 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:70:23 Unresolved reference: R
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:71:24 Unresolved reference: R
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:72:25 Unresolved reference: R
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:73:27 Unresolved reference: R
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:77:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:77:62 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:78:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:78:65 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:79:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:79:63 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:80:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:80:67 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:83:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:83:62 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:84:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:84:65 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:85:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:85:63 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:86:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:86:63 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:89:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:89:57 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:90:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:90:57 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:91:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:91:63 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:92:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:92:59 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:93:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:93:59 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:94:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:94:69 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:95:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:95:65 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:96:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:96:67 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:99:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:99:77 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:100:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:100:66 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:101:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:101:69 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:102:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:102:69 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:103:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:103:71 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:106:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:106:63 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:107:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:107:66 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:108:13 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:108:67 Unresolved reference: ToolCategory
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:114:39 Unresolved reference: ToolItem
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:121:17 Unresolved reference: startActivity
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:121:38 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:135:32 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:141:29 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:143:9 Unresolved reference: startActivity
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:147:30 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:150:9 Unresolved reference: lifecycleScope
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:150:31 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:155:42 Overload resolution ambiguity: 
+public constructor File(p0: File!, p1: String!) defined in java.io.File
+public constructor File(p0: String!, p1: String!) defined in java.io.File
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:157:25 Suspend function 'showToast' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:161:25 Unresolved reference: withContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:161:37 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:167:25 Unresolved reference: withContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:167:37 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:173:42 Overload resolution ambiguity: 
+public constructor File(p0: File!, p1: String!) defined in java.io.File
+public constructor File(p0: String!, p1: String!) defined in java.io.File
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:175:25 Suspend function 'showToast' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:179:42 Overload resolution ambiguity: 
+public constructor File(p0: File!, p1: String!) defined in java.io.File
+public constructor File(p0: String!, p1: String!) defined in java.io.File
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:181:25 Suspend function 'showToast' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:183:29 Suspend function 'showToast' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:186:17 Suspend function 'showToast' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:192:9 Unresolved reference: withContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:192:21 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:193:28 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:198:45 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:199:52 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:204:17 Unresolved reference: lifecycleScope
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:204:39 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:206:21 Suspend function 'showToast' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:214:45 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:217:52 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:222:17 Unresolved reference: lifecycleScope
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:222:39 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:224:21 Suspend function 'showToast' should be called only from a coroutine or another suspend function
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:233:30 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:236:9 Unresolved reference: lifecycleScope
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:236:31 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:240:42 Overload resolution ambiguity: 
+public constructor File(p0: File!, p1: String!) defined in java.io.File
+public constructor File(p0: String!, p1: String!) defined in java.io.File
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:241:49 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:245:42 Overload resolution ambiguity: 
+public constructor File(p0: File!, p1: String!) defined in java.io.File
+public constructor File(p0: String!, p1: String!) defined in java.io.File
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:246:49 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:252:25 Unresolved reference: withContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:252:37 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:253:44 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:261:17 Unresolved reference: withContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:261:29 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:262:36 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:265:17 Unresolved reference: withContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:265:29 Unresolved reference: Dispatchers
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:266:36 Unresolved reference: requireContext
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:272:5 'onDestroyView' overrides nothing
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/fragments/ToolsFragment.kt:273:15 Unresolved reference: onDestroyView
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/pdf/PDFEditor.kt:110:20 Unresolved reference: fillOpacity
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/utils/OfficeConverter.kt:39:21 Unresolved reference: end
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/utils/OfficeConverter.kt:67:21 Unresolved reference: end
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/utils/TranslationUtils.kt:7:27 Unresolved reference: tasks
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/utils/TranslationUtils.kt:23:58 Unresolved reference: await
+e: file:///C:/Users/prash/AndroidStudioProjects/CamScannerByPRT/app/src/main/java/com/prtcomputers/camscannerbyprt/utils/TranslationUtils.kt:24:47 Unresolved reference: await
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3m 14s
+34 actionable tasks: 15 executed, 19 up-to-date
